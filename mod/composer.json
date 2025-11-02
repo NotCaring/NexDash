@@ -1,0 +1,17 @@
+{
+  "name": "FFLoader",
+  "version": "1.0",
+  "authors": [
+    {
+      "name": "Wantows",
+      "email": "wantowslr@gmail.com"
+    }
+  ],
+  "description": "Loader for FreeFire",
+  "require": {
+    "ext-sodium": "*",
+    "ext-openssl": "*",
+    "ext-json": "*",
+    "ext-mysqli": "*"
+  }
+}

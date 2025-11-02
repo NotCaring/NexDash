@@ -1,0 +1,8 @@
+[02-Jun-2021 12:49:55 America/Fortaleza] PHP Warning:  include(../autoloader.php): failed to open stream: No such file or directory in /home4/evotio43/public_html/mod/backup/init.php on line 13
+[02-Jun-2021 12:49:55 America/Fortaleza] PHP Warning:  include(../autoloader.php): failed to open stream: No such file or directory in /home4/evotio43/public_html/mod/backup/init.php on line 13
+[02-Jun-2021 12:49:55 America/Fortaleza] PHP Warning:  include(): Failed opening '../autoloader.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear:phpseclib') in /home4/evotio43/public_html/mod/backup/init.php on line 13
+[02-Jun-2021 12:49:55 America/Fortaleza] PHP Notice:  Decryption error in /home4/evotio43/public_html/mod/backup/phpseclib/Crypt/RSA.php on line 2788
+[02-Jun-2021 12:49:55 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class 'config\dbMysql' not found in /home4/evotio43/public_html/mod/backup/login.php:35
+Stack trace:
+#0 {main}
+  thrown in /home4/evotio43/public_html/mod/backup/login.php on line 35

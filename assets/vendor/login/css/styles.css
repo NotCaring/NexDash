@@ -1,0 +1,45 @@
+main {
+  height: 100vh;
+  background: #d4d4d4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  padding: 10px 15px;
+  background: #fff;
+  border-radius: 7px;
+  border-top: 3px solid #045fff;
+}
+
+.login input {
+  border: 1px solid #000000;
+}
+
+.input-group-text {
+  background: none;
+  border: 1px solid #000;
+}
+
+h2 {
+  font-weight: 800;
+  color: #000;
+}
+
+h2 span {
+  color: #045fff;
+}
+
+.btn {
+  width: 100%;
+}
+
+a {
+  /*background: #045fff;*/
+  /*padding: 4px;*/
+  /*border-radius: 50px;*/
+  /*text-decoration: none;*/
+  color: #045fff;
+  /*font-weight: 200;*/
+}

@@ -1,0 +1,338 @@
+/* Estilos personalizados para modernizar o design */
+
+/* Cores e Backgrounds */
+body {
+    background-color: #f0f2f5; /* Um cinza claro suave para o fundo */
+    color: #333; /* Cor de texto padrão mais escura */
+}
+
+.app-header, .app-sidebar {
+    background-color: #2c3e50; /* Azul escuro para cabeçalho e sidebar */
+    color: #ecf0f1; /* Texto claro */
+}
+
+.card {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.card-header {
+    background-color: #34495e; /* Azul mais escuro para cabeçalhos de card */
+    color: #ecf0f1;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.btn-primary {
+    background-color: #3498db; /* Azul vibrante para botões primários */
+    border-color: #3498db;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+    border-color: #2980b9;
+}
+
+.btn-warning {
+    background-color: #f39c12; /* Laranja para botões de aviso */
+    border-color: #f39c12;
+}
+
+.btn-warning:hover {
+    background-color: #e67e22;
+    border-color: #e67e22;
+}
+
+.btn-success {
+    background-color: #2ecc71; /* Verde para botões de sucesso */
+    border-color: #2ecc71;
+}
+
+.btn-success:hover {
+    background-color: #27ae60;
+    border-color: #27ae60;
+}
+
+.btn-dark {
+    background-color: #34495e; /* Azul escuro para botões escuros */
+    border-color: #34495e;
+}
+
+.btn-dark:hover {
+    background-color: #2c3e50;
+    border-color: #2c3e50;
+}
+
+/* Formulários */
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.form-control:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 0 0.2rem rgba(52, 152, 219, 0.25);
+}
+
+/* Tabelas */
+.table-responsive {
+    border-radius: 8px;
+    overflow: hidden; /* Garante que o border-radius seja aplicado */
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+.table thead th {
+    background-color: #34495e;
+    color: #ecf0f1;
+    border-color: #34495e;
+}
+
+.table tbody tr {
+    background-color: #ffffff;
+}
+
+/* Badges */
+.badge-dark {
+    background-color: #34495e;
+    color: #ecf0f1;
+}
+
+.badge-info {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.badge-success {
+    background-color: #2ecc71;
+    color: #fff;
+}
+
+.badge-danger {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+.badge-warning {
+    background-color: #f39c12;
+    color: #fff;
+}
+
+.badge-secondary {
+    background-color: #95a5a6;
+    color: #fff;
+}
+
+/* Navegação e Breadcrumbs */
+.page-title-head {
+    color: #2c3e50;
+}
+
+.breadcrumb-item a {
+    color: #3498db;
+}
+
+.breadcrumb-item.active a {
+    color: #555;
+}
+
+/* Ajustes gerais de espaçamento e tipografia */
+body {
+    font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; /* Fonte mais moderna */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #2c3e50;
+}
+
+.app-main__inner {
+    padding: 30px;
+}
+
+.app-page-title {
+    margin-bottom: 20px;
+}
+
+.app-header__logo .logo-src h6 {
+    font-size: 1.2rem;
+}
+
+.app-header-left .search-wrapper .input-holder .search-input {
+    border-radius: 20px;
+    padding-left: 15px;
+}
+
+.app-header-right .widget-content-left .widget-heading span {
+    color: #ecf0f1;
+}
+
+.app-header-right .widget-content-left .widget-subheading i {
+    color: #a2d9ce !important; /* Um verde mais suave */
+}
+
+/* Ajustes para a tabela de usuários */
+.table th, .table td {
+    vertical-align: middle;
+}
+
+.table th:first-child, .table td:first-child {
+    padding-left: 20px;
+}
+
+.table th:last-child, .table td:last-child {
+    padding-right: 20px;
+}
+
+.btn-group .dropdown-menu {
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.dropdown-item {
+    padding: 10px 15px;
+}
+
+.dropdown-item:hover {
+    background-color: #f0f2f5;
+    color: #3498db;
+}
+
+/* Ajustes para a paginação */
+.pagination .page-item.active .page-link {
+    background-color: #3498db;
+    border-color: #3498db;
+}
+
+.pagination .page-link {
+    color: #3498db;
+}
+
+.pagination .page-link:hover {
+    color: #2980b9;
+}
+
+/* Ajustes para alertas */
+.alert-success {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+}
+
+.alert-success i, .alert-danger i {
+    color: inherit;
+}
+
+/* Adicionar alguns estilos para o menu lateral */
+.app-sidebar .app-sidebar__inner ul li a {
+    color: #ecf0f1;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.app-sidebar .app-sidebar__inner ul li a:hover,
+.app-sidebar .app-sidebar__inner ul li.mm-active a {
+    background-color: #34495e;
+    color: #fff;
+}
+
+.app-sidebar .app-sidebar__inner ul li.mm-active a i {
+    color: #3498db;
+}
+
+.app-sidebar .app-sidebar__inner ul li a i {
+    color: #bdc3c7;
+}
+
+/* Ajustes para o logo/título no cabeçalho */
+.app-header__logo .logo-src {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.app-header__logo .logo-src h6 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Melhorar a responsividade de alguns elementos */
+@media (max-width: 768px) {
+    .app-header-left .search-wrapper {
+        display: none;
+    }
+
+    .app-header__content {
+        justify-content: space-between;
+    }
+
+    .app-header-right .widget-content-left .widget-heading,
+    .app-header-right .widget-content-left .widget-subheading {
+        display: none;
+    }
+
+    .app-header-right .widget-content-wrapper {
+        padding-right: 10px;
+    }
+
+    .app-header__logo {
+        width: auto;
+    }
+
+    .app-header__logo .header__pane {
+        margin-left: 0;
+    }
+
+    .app-header__logo .logo-src {
+        padding-left: 10px;
+    }
+}
+
+
+
+.credits-positive {
+    color: lightgreen;
+}
+
+.credits-negative {
+    color: red;
+}
+
+
+
+.user-role {
+    font-style: normal;
+    font-size: 0.8em;
+    padding: 3px 8px;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.user-role.admin {
+    background-color: #2ecc71; /* Verde para Admin */
+}
+
+.user-role.mod {
+    background-color: #3498db; /* Azul para Moderador */
+}
+
+.user-role.seller {
+    background-color: #f39c12; /* Laranja para Vendedor */
+}
+
+.user-role.member {
+    background-color: #95a5a6; /* Cinza para Membro */
+}
+
